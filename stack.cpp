@@ -88,3 +88,24 @@ current = current ->next;
 }
 
 //Part 9
+int main()
+{
+    Stack s;
+
+    s.push(10);
+    s.push(20);
+    s.push(30);
+    s.push(40);
+   
+    s.display();
+    s.pop();
+    cout << "Top element: " << s.peek() << endl << endl;
+    s.display();
+
+    s.pop();
+    s.pop();
+    s.pop();
+    s.pop();   
+
+    return 0;
+}
